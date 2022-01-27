@@ -79,3 +79,7 @@ In this step, we perform different sets of validation on the given set of traini
 3) Clustering - KMeans model created during training is loaded, and clusters for the preprocessed prediction data is predicted.
 4) Prediction - Based on the cluster number, the respective model is loaded and is used to predict the data for that cluster.
 5) Once the prediction is made for all the clusters, the predictions along with the original names before label encoder are saved in a CSV file at a given location and the location is returned to the client.
+
+## Sample Run
+
+![Map](https://github.com/das-ankur/Covid-19-India/blob/main/Visualizations/1.jpg)
