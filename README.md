@@ -81,5 +81,10 @@ In this step, we perform different sets of validation on the given set of traini
 5) Once the prediction is made for all the clusters, the predictions along with the original names before label encoder are saved in a CSV file at a given location and the location is returned to the client.
 
 ## Sample Run
-
-![Map](https://github.com/das-ankur/Covid-19-India/blob/main/Visualizations/1.jpg)
+   ### Homepage:
+       ![Map](https://github.com/das-ankur/Cement-Strength-Prediction/blob/28ffb61430e13327ed7ae5f6413e268762f6aff7/Sample_Run/homepage.jpg)
+   ### Training:
+       ![Map](https://github.com/das-ankur/Cement-Strength-Prediction/blob/28ffb61430e13327ed7ae5f6413e268762f6aff7/Sample_Run/Screenshot%202022-01-27%20122740.jpg)
+   ### Prediction:
+       ![Map](https://github.com/das-ankur/Cement-Strength-Prediction/blob/28ffb61430e13327ed7ae5f6413e268762f6aff7/Sample_Run/pred1.jpg)
+       ![Map](https://github.com/das-ankur/Cement-Strength-Prediction/blob/main/Sample_Run/pred2.jpg)
