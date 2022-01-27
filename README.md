@@ -1,7 +1,7 @@
 # Cement-Strength-Prediction
 ## Data Description:
 ### Cement (Input Variable) : 
-    It is a quantitive variable. Measurement in kg in a m3 mixture.
+    <p>It is a quantitive variable. Measurement in kg in a m3 mixture.</p>
 ### Blast Furnace Slag(Input Variable):
     It is a quantitive variable. Measurement in kg in a m3 mixture. Blast furnace slag is a nonmetallic coproduct produced in the process. It consists primarily of silicates, aluminosilicates, and calcium-alumina-silicates.
 ### Fly Ash(Input Variable):
