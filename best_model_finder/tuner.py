@@ -112,14 +112,16 @@ class Model_Finder:
             self.LinearReg= self.get_best_params_for_linearReg(train_x, train_y)
             self.prediction_LinearReg = self.LinearReg.predict(test_x) # Predictions using the LinearReg Model
             self.LinearReg_error = r2_score(test_y,self.prediction_LinearReg)
-         # create best model for Random Forest Regresssor
+            # create best model for Random Forest Regresssor
             self.randomForestReg = self.get_best_params_for_Random_Forest_Regressor(train_x, train_y)
             self.prediction_randomForestReg = self.randomForestReg.predict(test_x)  # Predictions using the randomForestReg Model
             self.prediction_randomForestReg_error = r2_score(test_y,self.prediction_randomForestReg)
             #comparing the two models
             if(self.LinearReg_error <  self.prediction_randomForestReg_error):
+                self.logger_object.log(self.file_object,'r2 score: ' + str(self.prediction_randomForestReg_error))
                 return 'RandomForestRegressor',self.randomForestReg
             else:
+                self.logger_object.log(self.file_object, 'r2 score: ' + str(self.LinearReg_error))
                 return 'LinearRegression',self.LinearReg
         except Exception as e:
             self.logger_object.log(self.file_object,
