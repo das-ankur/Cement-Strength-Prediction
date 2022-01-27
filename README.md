@@ -1,7 +1,7 @@
 # Cement-Strength-Prediction
 ## Data Description:
 ### Cement (Input Variable) : 
-    <p>It is a quantitive variable. Measurement in kg in a m3 mixture.</p>
+    It is a quantitive variable. Measurement in kg in a m3 mixture.
 ### Blast Furnace Slag(Input Variable):
     It is a quantitive variable. Measurement in kg in a m3 mixture. Blast furnace slag is a nonmetallic coproduct produced in the process. It consists primarily of silicates, aluminosilicates, and calcium-alumina-silicates.
 ### Fly Ash(Input Variable):
@@ -18,3 +18,5 @@
     It is a quantitive variable. Day measured in(1~365).
 ### Concrete Compressive Strength(Outpu Vraible):
     It is a quantitive variable. Measured by MPa.
+## Data Validation:
+**Name Validation:** We validate the name of the files based on the given name in the schema file. We have created a regex pattern as per the name given in the schema file to use for validation. After validating the pattern in the name, we check for the length of date in the file name as well as the length of time in the file name. If all the values are as per requirement, we move such files to "Good_Data_Folder" else we move such files to "Bad_Data_Folder."
